@@ -9,5 +9,7 @@ int main(){
         case('2'):
         printf("Tuesday");
         break; 
+        default:
+        printf("Invalid;")
          }
 }
