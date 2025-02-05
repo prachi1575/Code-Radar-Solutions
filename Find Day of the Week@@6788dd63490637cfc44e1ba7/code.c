@@ -8,6 +8,6 @@ int main(){
         break;
         case('2'):
         printf("Tuesday");
-        breakl; 
+        break; 
          }
 }
