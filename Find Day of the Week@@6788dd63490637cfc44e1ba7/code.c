@@ -10,6 +10,6 @@ int main(){
         printf("Tuesday");
         break; 
         default:
-        printf("Invalid;")
+        printf("Invalid");
          }
 }
