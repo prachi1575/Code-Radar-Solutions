@@ -15,7 +15,7 @@ int main(){
         printf("Below Average");
     }
     else{
-    printf("fail");
+    printf("Fail");
     }
     return 0;
 
