@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-   if(a>>1 & b){printf("%d",b);}
+   if(a>>b & 0){printf("%d",b);}
    else{printf("%d",a);}
     return 0;
 }
