@@ -2,7 +2,7 @@
 int main{
     int a;
     scanf("%d",&a);
-    if("%d",(a>>31)&1){
+    if((a>>31)&1){
         printf(Set);
     }
     else{
