@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    int a,b,c;
     scanf("%d %d",&a,&b);
-     int c= a<<31;
-     printf("%d",c);
+    c=a^(1<<b)
+    printf("%d",c);
     return 0;
 }
