@@ -1,12 +1,22 @@
-# include <stdio.h>
-int main(){
-    int a;
-    int position=1;
-    int count=0
-    scanf("%d",&a);
-    for (a==0;position<<1;count++;){
-        printf("%d",&count);
-    }
-    return 0;
+#include <stdio.h>
 
+int main() {
+    int number;
+    int count = 0;
+    scanf("%d", &number);
+    if (number == 0) {
+        count = 32;
+    } else {
+        for (int i = 31; i >= 0; i--) {
+            if ((number & (1 << i)) == 0) {
+                count++;
+            } else {
+                break;
+            }
+        }
+    }
+
+    printf("%d", count);
+
+    return 0;
 }
