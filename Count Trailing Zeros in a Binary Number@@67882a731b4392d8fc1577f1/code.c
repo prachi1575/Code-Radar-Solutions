@@ -8,7 +8,7 @@ int main() {
         count = 32;
     } else {
         for (int i = 0; i <=31; i++) {
-            if ((number & (i >> 1)) == 0) {
+            if ((number & (1>> i)) == 0) {
                 count++;
             } else {
                 break;
