@@ -1,12 +1,10 @@
-# include <stdio.h>
-int main(){
-    int a;
-    int position=1;
+#include <stdio.h>
+
+int main() {
+    int number ;  
+    int lowestSetBit = number & -number;
     scanf("%d",&a);
-    while(!(a&1)){
-        a>>1;
-        position ++;
-    }
-    printf("%d",position);
+
+    printf("%d", lowestSetBit);
     return 0;
 }
