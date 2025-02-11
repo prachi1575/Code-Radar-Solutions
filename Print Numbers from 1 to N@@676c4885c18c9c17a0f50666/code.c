@@ -4,7 +4,7 @@ int main(){
     for (i=1;i<=5;i++){
         printf(" %d ", i );
         if (i<5){
-            printf(" ");
+            printf("");
         }
     }
     return 0;
