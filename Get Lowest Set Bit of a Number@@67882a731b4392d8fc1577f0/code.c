@@ -2,6 +2,7 @@
 int main(){
     int a;
     int position=1;
+    scanf("%d",&a);
     while(!(a&1)){
         a>>1;
         position ++;
