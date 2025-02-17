@@ -3,12 +3,14 @@
 int main() {
     int number;
     scanf("%d", &number);
-    int i;
-    for (i = 31; i >= 29; i--) {
-        int bit = (number >> i) & 1;
-        printf("%d", bit);
-    }
-    printf("\n");
+    
+    int mask = 7 << 29; 
+    int firstThreeBits = (number & mask) >> 29; 
+    
+    printf(" %d%d%d\n", 
+           (firstThreeBits >> 2) & 1, 
+           (firstThreeBits >> 1) & 1, 
+           firstThreeBits & 1);
     
     return 0;
 }
