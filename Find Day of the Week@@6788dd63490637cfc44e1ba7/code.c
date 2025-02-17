@@ -3,12 +3,12 @@ int main(){
     int a;
     scanf("%d",&a);
     switch(a){
-        case (1):
-        printf("Monday") ;
+        case(1):
+        printf("Monday");
         break;
         case(2):
         printf("Tuesday");
-        break; 
+        break;
         case(3):
         printf("Wednesday");
         break;
@@ -26,5 +26,6 @@ int main(){
         break;
         default:
         printf("Invalid");
-         }
+        return 0;
+    }
 }
