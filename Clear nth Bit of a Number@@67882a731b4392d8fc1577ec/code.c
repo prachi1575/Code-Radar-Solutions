@@ -1,13 +1,11 @@
-# include <stdio.h>
-int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-    if (a>>b & 1){
-        printf("%d",~(a>>b));
-    }
-    else{
-         printf("%d",a);
-    }
-       
+#include <stdio.h>
+int main() {
+    int number, n;
+    scanf("%d", &number);
+    scanf("%d", &n);
+    int mask = ~(1 << n);
+    int result = number & mask; 
+    printf(" %d\n", result);
     
+    return 0;
 }
