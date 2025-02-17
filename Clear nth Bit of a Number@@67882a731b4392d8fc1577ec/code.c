@@ -5,4 +5,7 @@ int main(){
     if (a>>b & 1){
         printf("%d",~(a>>b));
     }
+    else(
+        printf("%d",a);
+    )
 }
