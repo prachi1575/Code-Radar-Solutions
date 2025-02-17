@@ -1,15 +1,9 @@
-#include <stdio.h>
-
-int main() {
-    int i, n;
-    scanf("%d", &n);
-    for (i = 1; i <= n; i++) {
-        printf("%d", i);
-        if (i < n) {
-            printf(" ");
-        }
+# include <stdio.h>
+int main(){
+    int a;
+    i=1;
+    for (i=1;i<=a,i++){
+        printf("%d",i);
+        return 0;
     }
-    printf("\n"); 
-
-    return 0;
 }
