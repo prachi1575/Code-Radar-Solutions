@@ -5,6 +5,7 @@ int main(){
     int i=1;
     while(i<=a){
         printf("%d",i);
+        printf(" ")
         i++;
     }
     return 0;
