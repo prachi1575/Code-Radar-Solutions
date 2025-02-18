@@ -7,7 +7,7 @@ int main(){
     }
     else{
         for (int i=0;i<=31;i++){
-            if (a & (1<<i)==0){
+            if ((a & (1<<i))==0){
                 count++;
             }else {
                 break;
