@@ -3,7 +3,7 @@ int fibonnacciSeries(int n){
         return n;
     }
     else{
-        return fibonnacci(n-1)+fibonaaci(n-2);
+        return fibonnacciSeries(n-1)+fibonaaciSeries(n-2);
     }
 
 }
