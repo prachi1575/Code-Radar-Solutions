@@ -12,6 +12,6 @@ int main(){
         for(int k=i-1;k>0;k--){
             printf("%d",k);
         }
-        printf("/n");
+        printf("\n");
     }
 }
